@@ -10,11 +10,17 @@ import Register from "./components/Auth/Register";
 import ForgetPassword from "./components/Auth/ForgetPassword";
 import Verification from "./components/Auth/Verification";
 import NewPassword from "./components/Auth/NewPassword";
+import Homepage from "./pages/Homepage";
 const router = createBrowserRouter([
   {
     path: "",
     element: <HomepageLayout />,
-    children: [],
+    children: [
+      {
+        path: "/",
+        element: <Homepage />,
+      },
+    ],
   },
   {},
   {

@@ -1,0 +1,11 @@
+.card-o {
+background: #cbe8db;
+}
+.card {
+width: 100%;
+border-radius:10px !important;
+}
+.card .img-card {
+width: 100%;
+height: 70px !important
+}

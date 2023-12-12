@@ -1,9 +1,13 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../utily/Navbar";
+import Search from "../utily/Search";
 
 const HomepageLayout = () => {
     return (
         <>
-            <main className='container px-12 md:px-0 text-center'>
+        <Navbar/>
+        <Search/>
+            <main className=''>
                 <Outlet />
             </main>
         </>
