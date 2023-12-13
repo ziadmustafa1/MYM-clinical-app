@@ -11,6 +11,9 @@ import ForgetPassword from "./components/Auth/ForgetPassword";
 import Verification from "./components/Auth/Verification";
 import NewPassword from "./components/Auth/NewPassword";
 import Homepage from "./pages/Homepage";
+import DashboardpageLayout from "./components/layouts/DashboardpageLayout";
+import Dashboard from "./pages/dashboard/Dashboard";
+import OrdersPage from "./pages/dashboard/OrdersPage";
 const router = createBrowserRouter([
   {
     path: "",
@@ -22,7 +25,6 @@ const router = createBrowserRouter([
       },
     ],
   },
-  {},
   {
     path: "/",
     element: <AuthLayout />,
@@ -58,6 +60,26 @@ const router = createBrowserRouter([
       {
         path: "new-password",
         element: <NewPassword />,
+      },
+    ],
+  },
+  {
+    path: "",
+    element: <DashboardpageLayout />,
+    children: [
+      {
+        path: "/dashboard",
+        element: <Dashboard />,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+    children: [
+      {
+        path: "/dashboard/orders",
+        element: <OrdersPage />,
       },
     ],
   },
