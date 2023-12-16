@@ -1,6 +1,6 @@
-import ProductCard from "../components/product/ProductCard"
-import ProductSaidBar from "../components/product/ProductSaidBar"
-import '../components/product/product.css'
+import ProductCard from "../../components/product/ProductCard"
+import ProductSaidBar from "../../components/product/ProductSaidBar"
+import '../../components/product/product.css'
 
 const ProductPage = () => {
   return (

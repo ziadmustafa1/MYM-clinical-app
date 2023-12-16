@@ -9,3 +9,25 @@ border-radius:10px !important;
 width: 100%;
 height: 70px !important
 }
+.btn-cart {
+color: #224A46;
+border: solid 1px #8BC4B5;
+border-radius: 10px;
+margin-left: 5px;
+}
+.btn-cart:hover {
+background: #8BC4B5;
+}
+.btn-cart-2:hover {
+  background-color: rgba(240, 255, 255, 0);
+  }
+  .btn-cart-2 {
+  background: #8BC4B5;
+  border: solid 1px #8BC4B5;
+  border-radius: 10px;
+  margin-left: 5px;
+  }
+  .img-details {
+width: 250px !important;
+height: 250px !important;
+  }

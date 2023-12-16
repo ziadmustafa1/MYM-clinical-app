@@ -28,10 +28,10 @@ const ProductCard = () => {
                   <img src={fv} alt="logo" />
                 </div>
                 <div className="absolute right-14 md:right-24">
-                  <img src={product.image} alt="logo" className="img-card" />
+                  <img src='https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/panadol-reskin/ar_AE/adult/Panadol%20Advance%20455x455.jpg.rendition.455.455.jpg?auto=format' alt="logo" className="img-card" />
                 </div>
                 <h1 className="absolute bottom-10">
-                {product.title}
+                Vitaferrol B12 Vitaferrol B12
                 </h1>
                 <div className="absolute bottom-2 right-0 left-2">
                   <div className="flex justify-between">
