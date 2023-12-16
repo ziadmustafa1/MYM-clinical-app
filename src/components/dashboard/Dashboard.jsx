@@ -2,8 +2,9 @@ import { Select, Option } from "@material-tailwind/react";
 import dash from '../../assets/dashboard/dash.svg'
 import dash2 from '../../assets/dashboard/dash2.svg'
 import dash3 from '../../assets/dashboard/dash3.svg'
-import ChartThree from "./ChartThree";
-import ChartOne from "./ChartOne";
+import ChartThree from "./Analytics/ChartThree";
+import ChartOne from "./Analytics/ChartOne";
+import ChartTow from "./Analytics/ChartTow";
 const Dashboard = () => {
   return (
     <div className="bg-white rounded-sm pb-5">
@@ -56,6 +57,7 @@ const Dashboard = () => {
         <ChartThree/>
         <ChartOne/>
       </div>
+      <ChartTow/>
     </div>
   );
 };

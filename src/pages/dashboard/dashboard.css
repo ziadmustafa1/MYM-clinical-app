@@ -4,3 +4,39 @@
 .text {
   color: #224A46;
 }
+.chat {
+background: linear-gradient(#0BA996, #109384, #224A46);
+color: aliceblue;
+padding: 10px !important;
+border-radius: 10px;
+}
+.chat-end {
+  background-color: #F1F1F1;
+  padding : 15px 10px 10px 15px;
+  direction:ltr;
+}
+.chat-start {
+  background-color: #8BC4B5;
+  margin: 10px 0px 10px 0px;
+  padding : 15px 10px 10px 15px;
+}
+.CardInventory {
+ border: solid 1px #224A46;
+ border-radius: 10px;
+ color: #224A46;
+}
+.button-Inventory {
+background: #8BC4B5;
+color: #141D21;
+border-top: solid 1px #141D21;
+border-radius: 0px 0px 10px 10px;
+}
+.All-Medicine {
+  border-top: solid 1px #636161;
+  border-left: solid 1px #636161;
+  border-right: solid 1px #636161;
+  border-radius: 10px;
+}
+.All-Medicine .dhd {
+  border-bottom: solid 1px #636161;
+}

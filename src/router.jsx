@@ -15,6 +15,11 @@ import DashboardpageLayout from "./components/layouts/DashboardpageLayout";
 import Dashboard from "./pages/dashboard/Dashboard";
 import OrdersPage from "./pages/dashboard/OrdersPage";
 import DashboardPage from "./pages/dashboard/DashboardPage";
+import AnalyticsPage from "./pages/dashboard/AnalyticsPage";
+import CustomersPage from "./pages/dashboard/CustomersPage";
+import ChatsPage from "./pages/dashboard/ChatsPage";
+import InventoryPage from "./pages/dashboard/InventoryPage";
+import AddNewMedicinePage from "./pages/dashboard/AddNewMedicinePage";
 const router = createBrowserRouter([
   {
     path: "",
@@ -86,6 +91,27 @@ const router = createBrowserRouter([
         path: "/dashboard",
         element: <DashboardPage />,
       },
+      {
+        path: "/dashboard/analytics",
+        element: <AnalyticsPage />,
+      },
+      {
+        path: "/dashboard/customers",
+        element: <CustomersPage />,
+      },
+{
+  path: "/dashboard/chats",
+  element: <ChatsPage />,
+},
+{
+  path: "/dashboard/inventory",
+  element: <InventoryPage />,
+},
+{
+  path: "/dashboard/inventory/add-new-medicine",
+  element: <AddNewMedicinePage />,
+},
+
     ],
   },
 ]);
