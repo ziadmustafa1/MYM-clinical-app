@@ -7,7 +7,7 @@ import sid6 from '../../assets/dashboard/sid6.svg'
 import sid7 from '../../assets/dashboard/sid7.svg'
 const DashboardSidBar = () => {
   return (
-    <div className='pl-10 sticky top-20'>
+    <div className='pl-10 sticky top-28'>
       <div className='flex justify-start items-center py-2'>
         <img src={sid1} alt="logo" className='w-5 h-5'/>
       <div>

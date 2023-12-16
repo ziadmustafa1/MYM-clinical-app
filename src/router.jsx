@@ -14,6 +14,7 @@ import Homepage from "./pages/Homepage";
 import DashboardpageLayout from "./components/layouts/DashboardpageLayout";
 import Dashboard from "./pages/dashboard/Dashboard";
 import OrdersPage from "./pages/dashboard/OrdersPage";
+import DashboardPage from "./pages/dashboard/DashboardPage";
 const router = createBrowserRouter([
   {
     path: "",
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/orders",
         element: <OrdersPage />,
+      },
+      {
+        path: "/dashboard",
+        element: <DashboardPage />,
       },
     ],
   },
