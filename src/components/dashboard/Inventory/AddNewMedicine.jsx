@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import { CgChevronRight } from 'react-icons/cg'
 import { Link } from 'react-router-dom'
-import ImageUploader from "react-images-upload";
 import { Textarea , Input , Select , Option } from '@material-tailwind/react';
 const AddNewMedicine = () => {
   const [pictures, setPictures] = useState([]);
@@ -24,16 +23,6 @@ const AddNewMedicine = () => {
         <p className='text-zinc-400 text-[12px]'>*All fields are mandatory, except mentioned as (optional).</p>
       </div>
       <div className="grid grid-cols-4">
-      <div className="col-span-2">
-      <ImageUploader
-          withIcon={false}
-          withPreview={true}
-          buttonText="Choose images"
-          onChange={onDrop}
-          imgExtension={[".jpg", ".gif", ".png", ".gif"]}
-          maxFileSize={5242880}
-        />
-        </div>
         <div className="col-span-2 m-3 h-10 rounded-lg shadow-2xl" style={{backgroundColor:"#E3EBF3"}}>
         <Input size="md" label="Medicine Name" />
         <div className="col-span-2 my-3 rounded-lg shadow-2xl" style={{backgroundColor:"#E3EBF3"}}>
