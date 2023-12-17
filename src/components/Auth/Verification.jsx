@@ -1,4 +1,4 @@
-import verification from "../../assets/Auth/verification.svg";
+import verification from "../../assets/Auth/Verification.svg";
 const Verification = () => {
   return (
     <div className="flex flex-col items-center min-h-screen pt-6 sm:justify-center sm:pt-0 bg-gray-50">
